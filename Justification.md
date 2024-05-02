@@ -11,6 +11,9 @@ This project aims to produce a composite index of house price data to explore ho
 
 ### Context and Justification<a name="context-and-justification"></a>
 
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/42227059-591b-4f17-9aba-5417cefe4908)
+
+
 Against the backdrop of broader economic challenges, the housing market in Ireland has experienced consistent price increases in recent years, reaching record highs. The average monthly rent for a home in Dublin approaches €2,000, while house and apartment prices continue to rise across the country. This situation reflects systemic challenges exacerbated by high demand, limited supply, and significant investment activity, particularly affecting younger generations (source: TheJournal.ie, Housing Ireland Magazine).
 
 While government initiatives like affordable housing schemes have been introduced, key problems related to supply and cost remain largely unresolved. The crisis of affordability extends beyond Ireland and is part of a wider European context where similar dynamics occur.
