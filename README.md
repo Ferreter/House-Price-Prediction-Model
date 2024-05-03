@@ -61,3 +61,6 @@ This analysis underscores the importance of tailored data cleaning strategies ba
 - Bed to Bath Ratio: Gives an idea of the layout efficiency, calculated by dividing the number of bedrooms by the number of bathrooms.
 
 ![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/179b2728-ff7e-4100-91f9-d775ecef7872)
+
+
+**Then I saved the cleaned dataset into cleaned_data.csv**
