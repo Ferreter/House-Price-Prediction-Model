@@ -4,6 +4,8 @@
 ## Table of Contents
 1. [Initial Summary](#initial-summary)
 2. [Data Cleaning](#data-cleaning)
+3. [Variable Selection and Removal](#variables)
+
 
 
 
@@ -64,3 +66,34 @@ This analysis underscores the importance of tailored data cleaning strategies ba
 
 
 **Then I saved the cleaned dataset into cleaned_data.csv**
+
+### Variable Selection and Removal<a name="variables"></a>
+
+#### Removed Variables
+
+The following variables were removed from the dataset for reasons specified below:
+
+- **Waterfront**: This variable was removed due to its very low correlation with the property prices, indicating that it does not significantly influence the price within the context of our dataset.
+
+- **Condition**: The condition of the property showed minimal correlation with price, suggesting it has little impact on pricing in our dataset, which may be due to the homogeneous nature of property conditions or limited variability captured by this variable.
+
+- **Yr_built**: The year a property was built was found to have a low correlation with its price. The age or historical value is not sufficiently differentiated within the dataset to impact the price significantly.
+
+- **Years_since_renovation** and **Yr_renovated**: Both variables related to renovations showed minimal correlation with property prices. This could be due to the infrequency of significant renovations that substantially affect property value or inconsistencies in how renovation data was reported or captured.
+
+- **View**: The variable measuring the quality of the property’s view had a low correlation with price. This suggests that while intuitively a factor, the view does not play a significant role in price determination within this dataset.
+
+- **Sqft_lot**: The size of the property lot showed an insignificant correlation with price, which could be attributed to the variation in value impact of lot size based on location (urban vs. rural).
+
+#### Importance of the Date Variable
+
+The **Date** variable has been retained as it is crucial for several reasons:
+
+- **Market Trends**: Capturing the date of the property sale allows us to analyze and model fluctuating market trends over time, which are influenced by broader economic conditions.
+
+- **Seasonality**: The real estate market often shows seasonal fluctuations, with certain times of the year being more active than others. Including the date helps us adjust predictions according to these seasonal variations.
+
+- **Long-term Value Changes**: The date helps capture the inflationary trends in the property market, providing insights into how property values increase over time.
+
+Including the date in the analysis ensures that our model can adjust to these factors, providing more accurate and realistic price predictions.
+
