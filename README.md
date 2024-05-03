@@ -165,3 +165,9 @@ Combining location-based variables with structural and functional attributes of 
 By retaining these variables, our dataset ensures that all critical elements influencing a property’s market value are considered, enhancing the predictability and reliability of our pricing models.
 
 ![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/7f04b7b8-3321-476f-8ef2-bed39051f313)
+
+#### Multiple Regression Analysis 
+
+This type of analysis is invaluable for multivariable analysis because it not only quantifies the impact of each variable on the price but also assesses the statistical significance of these impacts through p-values. The coefficients tell you the expected change in property price for a one-unit change in each variable, assuming all other variables remain constant. For instance, if the coefficient for sqft_living is positive and statistically significant, it suggests that larger properties tend to have higher prices.
+
+Moreover, the R-squared value from the model summarizes the proportion of variance in property prices that is explained by the variables in the model, offering a measure of the model's overall fit. This helps in evaluating how well the selected variables capture the dynamics of the real estate market. The higher the R-squared, the better these variables explain price variations, which assists stakeholders in making informed decisions based on the model's predictions. Overall, this regression analysis is a cornerstone of predictive modeling in real estate, providing a robust framework for evaluating and forecasting property values.
