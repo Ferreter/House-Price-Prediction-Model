@@ -51,3 +51,13 @@ Also something interesting to look at is the the values of waterfront
 
 
 This analysis underscores the importance of tailored data cleaning strategies based on the specific requirements and conditions of the dataset to optimize both the quality and usefulness of the data for subsequent analyses.
+
+#### Feature Engineering and Correlation Changes 
+
+- House Age: Calculated as the difference between the current year and the year the house was built.
+- Years Since Renovation: Represents the number of years since the house was last renovated, providing insight into the property's upkeep and modernity.
+- Total Square Footage: Sum of the living area and lot size, offering a composite measure of space.
+- Price Per Square Foot: A critical indicator of value, derived by dividing the house price by the living area square footage.
+- Bed to Bath Ratio: Gives an idea of the layout efficiency, calculated by dividing the number of bedrooms by the number of bathrooms.
+
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/179b2728-ff7e-4100-91f9-d775ecef7872)
