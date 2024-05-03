@@ -35,4 +35,19 @@ The data cleaning process was meticulously documented to evaluate the impact of 
 - **Data Integrity:** Filling missing values (if any were to exist) with the mean is a strategic choice for maintaining the maximum amount of data, crucial for large datasets or when data acquisition is costly or challenging.
 - **Quality vs. Quantity:** Removing duplicates and outliers might reduce the dataset size, but it significantly enhances the quality of the data, which can lead to more accurate and reliable predictive models.
 
+
+
+#### Analysis of Correlation Changes
+##### Before Removing Outliers
+Strong Correlations: Some variables such as 'sqft_living', 'sqft_above', 'bedrooms', and 'bathrooms' showed strong correlations with 'price', indicating that larger and more accommodating properties tend to have higher prices.
+Moderate to Weak Correlations: Variables like 'sqft_lot', 'floors', and 'yr_built' displayed weaker correlations with 'price', suggesting these features have less influence on property pricing or are more variable.
+##### After Removing Outliers
+General Trends: The correlations generally became slightly weaker, particularly for variables directly associated with property size. This can be attributed to the reduction in extreme price values distorting these relationships.
+Reduced Impact of Extreme Cases: The relationship between 'price' and 'sqft_above' or 'sqft_living' lessened slightly, indicating a more normalized and uniform dataset where property size is less variably linked to extreme pricing.
+
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/da23434d-d839-4dec-af2c-1f20f6e20df3)
+
+Also something interesting to look at is the the values of waterfront 
+
+
 This analysis underscores the importance of tailored data cleaning strategies based on the specific requirements and conditions of the dataset to optimize both the quality and usefulness of the data for subsequent analyses.
