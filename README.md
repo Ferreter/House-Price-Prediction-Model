@@ -163,3 +163,5 @@ By analyzing data across different streets, cities, and zip codes, we can better
 Combining location-based variables with structural and functional attributes of properties provides a comprehensive dataset that reflects both the inherent qualities of a property and its contextual value based on location. This holistic approach enables more nuanced insights and predictions in our real estate models.
 
 By retaining these variables, our dataset ensures that all critical elements influencing a property’s market value are considered, enhancing the predictability and reliability of our pricing models.
+
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/7f04b7b8-3321-476f-8ef2-bed39051f313)
