@@ -113,9 +113,14 @@ The following variables were retained in the dataset due to their significant co
 
 Variables related to the size and structure of the property, such as **Sqft_living**, **Sqft_above**, and **Total Sqft**, are crucial because they directly impact the utility and the aesthetic appeal of a property, which are significant determinants of its market value.
 
+
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/a9978f92-8762-48fe-8ed0-bfe4420029de)
+
 #### Functional Variables
 
 **Bedrooms**, **Bathrooms**, and **Floors** are functional variables that influence a buyer's decision-making process based on their needs and preferences. These factors are directly related to the lifestyle that a property can offer, making them critical in predicting property prices.
+
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/3994cfcb-3397-4450-ae42-cfc6716057b8)
 
 #### Economic Efficiency
 
@@ -132,6 +137,9 @@ The **Date** variable has been retained as it is crucial for several reasons:
 - **Seasonality**: The real estate market often shows seasonal fluctuations, with certain times of the year being more active than others. Including the date helps us adjust predictions according to these seasonal variations.
 
 - **Long-term Value Changes**: The date helps capture the inflationary trends in the property market, providing insights into how property values increase over time.
+
+- ![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/f1b9f62f-7458-4ad7-8671-39da64da3d1a)
+
 
 Including the date in the analysis ensures that our model can adjust to these factors, providing more accurate and realistic price predictions.
 
@@ -165,3 +173,12 @@ Combining location-based variables with structural and functional attributes of 
 By retaining these variables, our dataset ensures that all critical elements influencing a property’s market value are considered, enhancing the predictability and reliability of our pricing models.
 
 ![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/7f04b7b8-3321-476f-8ef2-bed39051f313)
+
+#### Multiple Regression Analysis 
+
+This type of analysis is invaluable for multivariable analysis because it not only quantifies the impact of each variable on the price but also assesses the statistical significance of these impacts through p-values. The coefficients tell you the expected change in property price for a one-unit change in each variable, assuming all other variables remain constant. For instance, if the coefficient for sqft_living is positive and statistically significant, it suggests that larger properties tend to have higher prices.
+
+Moreover, the R-squared value from the model summarizes the proportion of variance in property prices that is explained by the variables in the model, offering a measure of the model's overall fit. This helps in evaluating how well the selected variables capture the dynamics of the real estate market. The higher the R-squared, the better these variables explain price variations, which assists stakeholders in making informed decisions based on the model's predictions. Overall, this regression analysis is a cornerstone of predictive modeling in real estate, providing a robust framework for evaluating and forecasting property values.
+
+![image](https://github.com/Ferreter/House-Price-Prediction-Model/assets/31386281/80e12005-6814-4981-ba05-c19a95d65172)
+
