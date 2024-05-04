@@ -1,4 +1,4 @@
-
+# **I stopped using this documentation after noticing mutliple issues, I cleaned the data incorrectly where price = 0 existed, columns like Country are useless and were never removed, The data future engineered was redundant and unusable. Following that I wanted to Start fresh as I spent 6-8 hours trying to fix it and and at the end didnt even feel like commiting to it, I have also marked all the files related to it as old-* to showcase the thought process that went into it **
 # House Price Prediction Model Documentation
 
 ## Table of Contents
