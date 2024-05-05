@@ -1,5 +1,38 @@
 # House Price Prediction Model Documentation
 
+# Table of Contents
+
+1. [Initial Summary](#initial-summary)
+2. [Theoretical Analysis of the Data Cleaning Process](#theoretical-analysis-of-the-data-cleaning-process)
+   - [Understanding Date Transformations and Price Filtering](#date-transformations-and-price-filtering)
+   - [Handling Missing Values](#handling-missing-values)
+   - [Feature Engineering](#feature-engineering)
+   - [Outliers and Duplicates Removal](#outliers-and-duplicates-removal)
+   - [Multicollinearity and Feature Selection](#multicollinearity-and-feature-selection)
+3. [Plotting Data](#plotting-data)
+   - [Correlation Analysis Visualization](#correlation-analysis-visualization)
+   - [Pair Plot for Key Features](#pair-plot-for-key-features)
+   - [Box Plot Analysis for Distribution Insights](#box-plot-analysis-for-distribution-insights)
+   - [Price Analysis by Specific Features](#price-analysis-by-specific-features)
+4. [Multivariate Analysis and Visualization](#multivariate-analysis-and-visualization)
+   - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+   - [Regression Analysis](#regression-analysis)
+5. [Normalization and Data Transformation](#normalization-and-data-transformation)
+   - [Data Preparation](#data-preparation)
+   - [Normalization Techniques](#normalization-techniques)
+   - [Outputs and Review](#outputs-and-review)
+6. [Modeling Steps](#modeling-steps)
+   - [Clustering with K-Means](#clustering-with-k-means)
+   - [Regression Analysis with Cluster Labels](#regression-analysis-with-cluster-labels)
+   - [Advanced Cluster Analysis by City](#advanced-cluster-analysis-by-city)
+7. [Learning Outcomes and Reflections](#learning-outcomes-and-reflections)
+   - [Multivariate Analysis and Regression Techniques](#multivariate-analysis-and-regression-techniques)
+   - [Clustering](#clustering)
+   - [Visualization](#visualization)
+   - [Challenges and Lessons Learned](#challenges-and-lessons-learned)
+   - [Broader Impacts and Continuous Learning](#broader-impacts-and-continuous-learning)
+
+
 ## Initial Summary<a name="initial-summary"></a>
 This project aims to produce a composite index of house price data to explore housing affordability, with a special focus on whether students will be able to afford a house The topic was chosen due to the persistent housing affordability crisis in Ireland, which has significant effects on individuals and society.
 
