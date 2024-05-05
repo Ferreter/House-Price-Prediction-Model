@@ -39,7 +39,6 @@ Duplicate entries are removed to ensure data integrity. Outliers, identified bas
 
 Columns deemed unnecessary for analysis are dropped. For example:
 - **Waterfront**: Since it may not significantly affect house prices in the dataset.
-- **Condition**: Since it might not provide substantial predictive power.
 - **Year Built and Year Renovated**: These are replaced by derived features like 'House Age' and 'Years Since Renovation'.
 - **View**: As it may not be a strong predictor of house prices in this context.
 - **Square Footage of Lot**: Since 'Total Square Footage' encompasses both living area and lot size.
