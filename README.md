@@ -271,4 +271,21 @@ The dataset itself, sourced from a common repository, initially seemed adequate.
 
 In conclusion, this first foray into machine learning was rich with learning opportunities, despite the initial setbacks. Each challenge encountered and overcome not only improved the technical understanding of ML techniques but also highlighted the importance of resilience and adaptability in data science. Through this project, the foundational skills in regression analysis, clustering, and visualization were developed, setting the stage for more advanced explorations in the future. The experience has been a testament to the power of learning through doing, particularly in a field as complex and dynamic as machine learning.
 
-Also, for the record a lot of this project wouldnt have been possible without the help of generative AI, it helped in logical thinking aspects. Generating documentation and data visualization 
+Also, for the record a lot of this project wouldnt have been possible without the help of generative AI, it helped in logical thinking aspects. Generating documentation and data visualization.
+Also, As i have been listening to a lot of kendrick recently I wanted to share a meme I made (it works better after you listen to the last part of the song as it helps u visualise the beat)
+
+You lied about your models and your test sets, all is perjury
+
+You lied about your algorithms, you lied about your parameters
+
+They all faulty, you lied on 'em, I know they all got bias in 'em
+
+You lied about your data, you lied about your plots, huh
+
+You lied about those other models that's out there hoping that you run
+
+You lied about the only coder that can offer you some help
+
+
+
+This is based on his latest song called "meet the grahams" https://genius.com/Kendrick-lamar-meet-the-grahams-lyrics
